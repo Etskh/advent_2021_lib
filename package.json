@@ -1,0 +1,17 @@
+{
+  "name": "solutions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "node-gyp clean",
+    "build": "node-gyp --verbose rebuild",
+    "test": "node-gyp rebuild && node index.js",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-gyp": "^8.4.1"
+  }
+}
